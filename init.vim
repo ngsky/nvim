@@ -589,7 +589,7 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 "color dracula
 "color one
-color deus
+"color deus
 "color gruvbox
 "let ayucolor="light"
 "color ayu
@@ -1164,7 +1164,7 @@ vmap ga :Tabularize /
 " ===
 " === vim-after-object
 " ===
-autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
+"autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
 
 
 " ===
@@ -1363,15 +1363,15 @@ let g:agit_no_default_mappings = 1
 " ===
 " === nvim-treesitter
 " ===
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = {"typescript", "dart", "java"},     -- one of "all", "language", or a list of languages
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-    disable = { "c", "rust" },  -- list of language that will be disabled
-  },
-}
-EOF
+"lua <<EOF
+"require'nvim-treesitter.configs'.setup {
+"  ensure_installed = {"typescript", "dart", "java"},     -- one of "all", "language", or a list of languages
+"  highlight = {
+"    enable = true,              -- false will disable the whole extension
+"    disable = { "c", "rust" },  -- list of language that will be disabled
+"  },
+"}
+"EOF
 
 
 " ===================== End of Plugin Settings =====================
